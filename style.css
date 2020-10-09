@@ -1,0 +1,53 @@
+      body {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          font-family: sans serif;
+          font-size: large;
+          background-color: black;
+      }
+
+      .topnav {
+          height: 45px;
+          text-align: center;
+          overflow: hidden;
+          background-color: #333;
+      }
+
+      .topnav a {
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 35px;
+      }
+
+      .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+      }
+
+      .topnav a.active {
+          background-color: #333;
+          color: white;
+      }
+
+#intro {
+    color: white;
+    padding-top: 3%;
+}
+
+      #map {
+          width: 100%;
+          top: 0;
+          bottom: 0;
+          margin-top: 2.8%;
+          position: absolute;
+
+      }
+
+      #result {
+          color: white;
+          font-size: 30px;
+          padding-top: 5%;
+      }
